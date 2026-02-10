@@ -154,6 +154,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 67a0d8c6ef9b0cd4eaed5f57905ea7eb, type: 2}
   - {fileID: 11400000, guid: 3a4858c5ff92e444dbcba154775681f0, type: 2}
   delayTime: 20
+  m_index: 1
 --- !u!4 &31718904
 Transform:
   m_ObjectHideFlags: 0
