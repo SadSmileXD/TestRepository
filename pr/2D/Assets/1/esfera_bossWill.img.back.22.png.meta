@@ -1,0 +1,3458 @@
+fileFormatVersion: 2
+guid: 965eddb59e0b9144687f60170ecc1a62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5288630449373464261
+    second: esfera_bossWill.img.back.22_0
+  - first:
+      213: -5698093870084206445
+    second: esfera_bossWill.img.back.22_1
+  - first:
+      213: 6573195459913873042
+    second: esfera_bossWill.img.back.22_2
+  - first:
+      213: 4886829451035527969
+    second: esfera_bossWill.img.back.22_3
+  - first:
+      213: -5904391186431665909
+    second: esfera_bossWill.img.back.22_4
+  - first:
+      213: 4130592701875741831
+    second: esfera_bossWill.img.back.22_5
+  - first:
+      213: -5713361541767529309
+    second: esfera_bossWill.img.back.22_6
+  - first:
+      213: 855640399978534344
+    second: esfera_bossWill.img.back.22_7
+  - first:
+      213: 5264153325046354922
+    second: esfera_bossWill.img.back.22_8
+  - first:
+      213: -3272686727476969184
+    second: esfera_bossWill.img.back.22_9
+  - first:
+      213: -6850526495883853096
+    second: esfera_bossWill.img.back.22_10
+  - first:
+      213: 762198409705792572
+    second: esfera_bossWill.img.back.22_11
+  - first:
+      213: 1833193837698583587
+    second: esfera_bossWill.img.back.22_12
+  - first:
+      213: 3873693076252170445
+    second: esfera_bossWill.img.back.22_13
+  - first:
+      213: -7038154258117904930
+    second: esfera_bossWill.img.back.22_14
+  - first:
+      213: 6698500494658998972
+    second: esfera_bossWill.img.back.22_15
+  - first:
+      213: -7131073349365717782
+    second: esfera_bossWill.img.back.22_16
+  - first:
+      213: -4003922556315926989
+    second: esfera_bossWill.img.back.22_17
+  - first:
+      213: -1029823491929507066
+    second: esfera_bossWill.img.back.22_18
+  - first:
+      213: -4883529170727643808
+    second: esfera_bossWill.img.back.22_19
+  - first:
+      213: -1961032422634342044
+    second: esfera_bossWill.img.back.22_20
+  - first:
+      213: -3077053433124960489
+    second: esfera_bossWill.img.back.22_21
+  - first:
+      213: 4691547851253315890
+    second: esfera_bossWill.img.back.22_22
+  - first:
+      213: 427207590469704012
+    second: esfera_bossWill.img.back.22_23
+  - first:
+      213: 4093651473509267503
+    second: esfera_bossWill.img.back.22_24
+  - first:
+      213: -3740355631069344917
+    second: esfera_bossWill.img.back.22_25
+  - first:
+      213: -7864896810757380247
+    second: esfera_bossWill.img.back.22_26
+  - first:
+      213: 6534835396706765260
+    second: esfera_bossWill.img.back.22_27
+  - first:
+      213: 4201793133386288254
+    second: esfera_bossWill.img.back.22_28
+  - first:
+      213: -2292629154177383583
+    second: esfera_bossWill.img.back.22_29
+  - first:
+      213: 230761225824677115
+    second: esfera_bossWill.img.back.22_30
+  - first:
+      213: 6578089198151746062
+    second: esfera_bossWill.img.back.22_31
+  - first:
+      213: 4463587755444889398
+    second: esfera_bossWill.img.back.22_32
+  - first:
+      213: 1559405003564792625
+    second: esfera_bossWill.img.back.22_33
+  - first:
+      213: 6939451255750336332
+    second: esfera_bossWill.img.back.22_34
+  - first:
+      213: -6392411518818253007
+    second: esfera_bossWill.img.back.22_35
+  - first:
+      213: 879664800991659613
+    second: esfera_bossWill.img.back.22_36
+  - first:
+      213: 8873829246134537188
+    second: esfera_bossWill.img.back.22_37
+  - first:
+      213: -4018461377901703944
+    second: esfera_bossWill.img.back.22_38
+  - first:
+      213: -7926992424865446955
+    second: esfera_bossWill.img.back.22_39
+  - first:
+      213: 5369709536703270701
+    second: esfera_bossWill.img.back.22_40
+  - first:
+      213: -963148363441206896
+    second: esfera_bossWill.img.back.22_41
+  - first:
+      213: -3543754426001367531
+    second: esfera_bossWill.img.back.22_42
+  - first:
+      213: 267277189457560609
+    second: esfera_bossWill.img.back.22_43
+  - first:
+      213: 2039333339078803486
+    second: esfera_bossWill.img.back.22_44
+  - first:
+      213: -3608563500541119214
+    second: esfera_bossWill.img.back.22_45
+  - first:
+      213: -2950714595510878305
+    second: esfera_bossWill.img.back.22_46
+  - first:
+      213: 8139367258274009713
+    second: esfera_bossWill.img.back.22_47
+  - first:
+      213: -4851019778464713882
+    second: esfera_bossWill.img.back.22_48
+  - first:
+      213: -1189580073320697529
+    second: esfera_bossWill.img.back.22_49
+  - first:
+      213: 8789056455731842511
+    second: esfera_bossWill.img.back.22_50
+  - first:
+      213: -6347481961159171602
+    second: esfera_bossWill.img.back.22_51
+  - first:
+      213: 3441860019272321682
+    second: esfera_bossWill.img.back.22_52
+  - first:
+      213: -2461462550044460043
+    second: esfera_bossWill.img.back.22_53
+  - first:
+      213: 3171614442633427672
+    second: esfera_bossWill.img.back.22_54
+  - first:
+      213: -5370327527860541354
+    second: esfera_bossWill.img.back.22_55
+  - first:
+      213: 2104656395554881391
+    second: esfera_bossWill.img.back.22_56
+  - first:
+      213: -3756203521126108825
+    second: esfera_bossWill.img.back.22_57
+  - first:
+      213: -2829863371057837012
+    second: esfera_bossWill.img.back.22_58
+  - first:
+      213: 4544060944158908225
+    second: esfera_bossWill.img.back.22_59
+  - first:
+      213: 8432979205368601321
+    second: esfera_bossWill.img.back.22_60
+  - first:
+      213: 7020905877471145449
+    second: esfera_bossWill.img.back.22_61
+  - first:
+      213: 1543226942498137850
+    second: esfera_bossWill.img.back.22_62
+  - first:
+      213: -6735895744169652422
+    second: esfera_bossWill.img.back.22_63
+  - first:
+      213: 7396926412023903708
+    second: esfera_bossWill.img.back.22_64
+  - first:
+      213: 1368486833851419190
+    second: esfera_bossWill.img.back.22_65
+  - first:
+      213: 2337586758382347838
+    second: esfera_bossWill.img.back.22_66
+  - first:
+      213: 5315022267976659019
+    second: esfera_bossWill.img.back.22_67
+  - first:
+      213: -8364356754835137614
+    second: esfera_bossWill.img.back.22_68
+  - first:
+      213: 3080606693598561441
+    second: esfera_bossWill.img.back.22_69
+  - first:
+      213: 5924072752563899893
+    second: esfera_bossWill.img.back.22_70
+  - first:
+      213: -5191728143805488432
+    second: esfera_bossWill.img.back.22_71
+  - first:
+      213: -5277530735466699167
+    second: esfera_bossWill.img.back.22_72
+  - first:
+      213: -4415080074295582944
+    second: esfera_bossWill.img.back.22_73
+  - first:
+      213: 6182270257053428313
+    second: esfera_bossWill.img.back.22_74
+  - first:
+      213: -1831419357536966280
+    second: esfera_bossWill.img.back.22_75
+  - first:
+      213: -4437422479313557374
+    second: esfera_bossWill.img.back.22_76
+  - first:
+      213: -1894993313269014696
+    second: esfera_bossWill.img.back.22_77
+  - first:
+      213: -7260856947096155832
+    second: esfera_bossWill.img.back.22_78
+  - first:
+      213: -6311853975083283591
+    second: esfera_bossWill.img.back.22_79
+  - first:
+      213: -809455580747984718
+    second: esfera_bossWill.img.back.22_80
+  - first:
+      213: -3905584343110147733
+    second: esfera_bossWill.img.back.22_81
+  - first:
+      213: -3836071099386944980
+    second: esfera_bossWill.img.back.22_82
+  - first:
+      213: -9220202089092615227
+    second: esfera_bossWill.img.back.22_83
+  - first:
+      213: 1379873390012254436
+    second: esfera_bossWill.img.back.22_84
+  - first:
+      213: -5254773615239984667
+    second: esfera_bossWill.img.back.22_85
+  - first:
+      213: -298934751707762161
+    second: esfera_bossWill.img.back.22_86
+  - first:
+      213: -6891901538243905111
+    second: esfera_bossWill.img.back.22_87
+  - first:
+      213: 6395846615783190174
+    second: esfera_bossWill.img.back.22_88
+  - first:
+      213: -5683647795266664540
+    second: esfera_bossWill.img.back.22_89
+  - first:
+      213: -6427580107256990081
+    second: esfera_bossWill.img.back.22_90
+  - first:
+      213: -2843570562665136142
+    second: esfera_bossWill.img.back.22_91
+  - first:
+      213: 5261497781645663034
+    second: esfera_bossWill.img.back.22_92
+  - first:
+      213: -4900316883384220571
+    second: esfera_bossWill.img.back.22_93
+  - first:
+      213: -5131121660673189763
+    second: esfera_bossWill.img.back.22_94
+  - first:
+      213: 1552333295401866723
+    second: esfera_bossWill.img.back.22_95
+  - first:
+      213: -5097966414418112386
+    second: esfera_bossWill.img.back.22_96
+  - first:
+      213: 4571003029851738773
+    second: esfera_bossWill.img.back.22_97
+  - first:
+      213: -300856966201633917
+    second: esfera_bossWill.img.back.22_98
+  - first:
+      213: -1502891804950813731
+    second: esfera_bossWill.img.back.22_99
+  - first:
+      213: -6724984074920217003
+    second: esfera_bossWill.img.back.22_100
+  - first:
+      213: 1164633493468749879
+    second: esfera_bossWill.img.back.22_101
+  - first:
+      213: -2416763350856271248
+    second: esfera_bossWill.img.back.22_102
+  - first:
+      213: -8264398819422670638
+    second: esfera_bossWill.img.back.22_103
+  - first:
+      213: 5350904841267257803
+    second: esfera_bossWill.img.back.22_104
+  - first:
+      213: -3665870897914053942
+    second: esfera_bossWill.img.back.22_105
+  - first:
+      213: -4994516992359014543
+    second: esfera_bossWill.img.back.22_106
+  - first:
+      213: -7961635775036514954
+    second: esfera_bossWill.img.back.22_107
+  - first:
+      213: 7502854134046410498
+    second: esfera_bossWill.img.back.22_108
+  - first:
+      213: 6884910935397849310
+    second: esfera_bossWill.img.back.22_109
+  - first:
+      213: -3584097296766272956
+    second: esfera_bossWill.img.back.22_110
+  - first:
+      213: -4199232632014183633
+    second: esfera_bossWill.img.back.22_111
+  - first:
+      213: 5560750135587184527
+    second: esfera_bossWill.img.back.22_112
+  - first:
+      213: 7924750061973858212
+    second: esfera_bossWill.img.back.22_113
+  - first:
+      213: 7742851877464215685
+    second: esfera_bossWill.img.back.22_114
+  - first:
+      213: -580406005253414275
+    second: esfera_bossWill.img.back.22_115
+  - first:
+      213: -3517993578045850342
+    second: esfera_bossWill.img.back.22_116
+  - first:
+      213: -4546960355844914618
+    second: esfera_bossWill.img.back.22_117
+  - first:
+      213: 1078074401321850720
+    second: esfera_bossWill.img.back.22_118
+  - first:
+      213: 658876217343816895
+    second: esfera_bossWill.img.back.22_119
+  - first:
+      213: 4450287026126290947
+    second: esfera_bossWill.img.back.22_120
+  - first:
+      213: 2582690185251250844
+    second: esfera_bossWill.img.back.22_121
+  - first:
+      213: -7280117657892144153
+    second: esfera_bossWill.img.back.22_122
+  - first:
+      213: 4681427934724312957
+    second: esfera_bossWill.img.back.22_123
+  - first:
+      213: -3913033996859866397
+    second: esfera_bossWill.img.back.22_124
+  - first:
+      213: -3507254469369264064
+    second: esfera_bossWill.img.back.22_125
+  - first:
+      213: -2233190424910987952
+    second: esfera_bossWill.img.back.22_126
+  - first:
+      213: 6341715828817112684
+    second: esfera_bossWill.img.back.22_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 818
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39b7cc60a20b96b0800000000000000
+      internalID: -5288630449373464261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_1
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 238
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390dcc0a0dd4ce0b0800000000000000
+      internalID: -5698093870084206445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_2
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 191
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296706bc17ea83b50800000000000000
+      internalID: 6573195459913873042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 239
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bc3e28e7181d340800000000000000
+      internalID: 4886829451035527969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 207
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b091bcdaf736f0ea0800000000000000
+      internalID: -5904391186431665909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 180
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784ef137d20d25930800000000000000
+      internalID: 4130592701875741831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 157
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac719dc2ff06b0b0800000000000000
+      internalID: -5713361541767529309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_7
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 124
+        width: 359
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c591301968dfdb00800000000000000
+      internalID: 855640399978534344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_8
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 210
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae35496fe870e0940800000000000000
+      internalID: 5264153325046354922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0218993c2c41592d0800000000000000
+      internalID: -3272686727476969184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 188
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d20178927a0ee0a0800000000000000
+      internalID: -6850526495883853096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 186
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34a1e25a6fd39a00800000000000000
+      internalID: 762198409705792572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_12
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 189
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c857c2510d07910800000000000000
+      internalID: 1833193837698583587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 184
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc896e2445f12c530800000000000000
+      internalID: 3873693076252170445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 177
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5ba72fdf3735e90800000000000000
+      internalID: -7038154258117904930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 176
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb29defa5bad5fc50800000000000000
+      internalID: 6698500494658998972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_16
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 178
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae42dcf1296590d90800000000000000
+      internalID: -7131073349365717782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_17
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 176
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e7d9216a53f68c0800000000000000
+      internalID: -4003922556315926989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_18
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 172
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b70368df455b1f0800000000000000
+      internalID: -1029823491929507066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0655580e7183a3cb0800000000000000
+      internalID: -4883529170727643808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_20
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 138
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4693bdfc66309c4e0800000000000000
+      internalID: -1961032422634342044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 146
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717c0bb943c1c45d0800000000000000
+      internalID: -3077053433124960489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_22
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 148
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23973b0f9e9bb1140800000000000000
+      internalID: 4691547851253315890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_23
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 12
+        width: 85
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c491c434a0fbde500800000000000000
+      internalID: 427207590469704012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 145
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2836c873529fc830800000000000000
+      internalID: 4093651473509267503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_25
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 164
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bca7cee56971cc0800000000000000
+      internalID: -3740355631069344917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 139
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96724b745064ad290800000000000000
+      internalID: -7864896810757380247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 139
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc90b569b2660ba50800000000000000
+      internalID: 6534835396706765260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_28
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 132
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c4a2fb794cf4a30800000000000000
+      internalID: 4201793133386288254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_29
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1638d8f5ee1fe20e0800000000000000
+      internalID: -2292629154177383583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_30
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 151
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfca63dbc14d33300800000000000000
+      internalID: 230761225824677115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_31
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 152
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e024ba406411a4b50800000000000000
+      internalID: 6578089198151746062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_32
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637631b1a69d1fd30800000000000000
+      internalID: 4463587755444889398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_33
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 156
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b3272b69e14a510800000000000000
+      internalID: 1559405003564792625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_34
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f132b7622ed4060800000000000000
+      internalID: 6939451255750336332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_35
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13709b297979947a0800000000000000
+      internalID: -6392411518818253007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_36
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 149
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56c580d972353c00800000000000000
+      internalID: 879664800991659613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_37
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 147
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb425d0fac262b70800000000000000
+      internalID: 8873829246134537188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_38
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcca82eaae8b38c0800000000000000
+      internalID: -4018461377901703944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_39
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 149
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3ceaa736aadf190800000000000000
+      internalID: -7926992424865446955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_40
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 121
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc93aaf5a058a40800000000000000
+      internalID: 5369709536703270701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_41
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 163
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099861b9aa532a2f0800000000000000
+      internalID: -963148363441206896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_42
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 129
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e58fa002e02dec0800000000000000
+      internalID: -3543754426001367531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_43
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124ce2e003f85b300800000000000000
+      internalID: 267277189457560609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_44
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 120
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e104766fdda2d4c10800000000000000
+      internalID: 2039333339078803486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_45
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 132
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2157ec08d9ecbedc0800000000000000
+      internalID: -3608563500541119214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_46
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f730d75b4fc07d0800000000000000
+      internalID: -2950714595510878305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_47
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 131
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1721edda567d4f070800000000000000
+      internalID: 8139367258274009713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_48
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 133
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663773a9637bdacb0800000000000000
+      internalID: -4851019778464713882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_49
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74136d9d933cd7fe0800000000000000
+      internalID: -1189580073320697529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_50
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 128
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd00c2b74009f970800000000000000
+      internalID: 8789056455731842511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_51
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 133
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee168e669c639e7a0800000000000000
+      internalID: -6347481961159171602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_52
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a8857a371f3cf20800000000000000
+      internalID: 3441860019272321682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_53
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb3ca42ad027ddd0800000000000000
+      internalID: -2461462550044460043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_54
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daf9a91886d30c20800000000000000
+      internalID: 3171614442633427672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 121
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658ee5e0193c875b0800000000000000
+      internalID: -5370327527860541354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_56
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 116
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f7d4f37dd353d10800000000000000
+      internalID: 2104656395554881391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_57
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 122
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761f43b7cc84fdbc0800000000000000
+      internalID: -3756203521126108825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_58
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 120
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c453dd14e4ab8d0800000000000000
+      internalID: -2829863371057837012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_59
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 119
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f515e6a5fbf0f30800000000000000
+      internalID: 4544060944158908225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 84
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea504e48e5f70570800000000000000
+      internalID: 8432979205368601321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_61
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 86
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edae1c72b44f6160800000000000000
+      internalID: 7020905877471145449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 97
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6e9635ab4aa6510800000000000000
+      internalID: 1543226942498137850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_63
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fc3bc428a4582a0800000000000000
+      internalID: -6735895744169652422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_64
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5b362916927a660800000000000000
+      internalID: 7396926412023903708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_65
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a438b5687ddf210800000000000000
+      internalID: 1368486833851419190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_66
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 105
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36690d85c6c07020800000000000000
+      internalID: 2337586758382347838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_67
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b403a00b790c2c940800000000000000
+      internalID: 5315022267976659019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 108
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb996509d5dbeb80800000000000000
+      internalID: -8364356754835137614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_69
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a402a0577380ca20800000000000000
+      internalID: 3080606693598561441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_70
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd442808c8863250800000000000000
+      internalID: 5924072752563899893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 96
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2631a92c643f7b0800000000000000
+      internalID: -5191728143805488432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_72
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1662d45f1c172c6b0800000000000000
+      internalID: -5277530735466699167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_73
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 110
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fd4b4801c7ab2c0800000000000000
+      internalID: -4415080074295582944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_74
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ae1213b06dbc550800000000000000
+      internalID: 6182270257053428313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_75
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 54
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8792c3f2ccd7596e0800000000000000
+      internalID: -1831419357536966280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_76
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 100
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288ae2af3cb1b62c0800000000000000
+      internalID: -4437422479313557374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_77
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 78
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f1cd62f91a3b5e0800000000000000
+      internalID: -1894993313269014696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849086783114c3b90800000000000000
+      internalID: -7260856947096155832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_79
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 81
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b0605504ac768a0800000000000000
+      internalID: -6311853975083283591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b01f00207c34c4f0800000000000000
+      internalID: -809455580747984718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_81
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61a79c8bb39cc9c0800000000000000
+      internalID: -3905584343110147733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_82
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 84
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2226e3d8a983cac0800000000000000
+      internalID: -3836071099386944980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_83
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 84
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3f15afc034b0080800000000000000
+      internalID: -9220202089092615227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_84
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 71
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8c1be898b462310800000000000000
+      internalID: 1379873390012254436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_85
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 76
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e98688ec3b4317b0800000000000000
+      internalID: -5254773615239984667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_86
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 80
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0270795d68f9dbf0800000000000000
+      internalID: -298934751707762161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_87
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 71
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9f00ad01c0b50a0800000000000000
+      internalID: -6891901538243905111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 61
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e24a34c9c92c850800000000000000
+      internalID: 6395846615783190174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_89
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7c2b68170af11b0800000000000000
+      internalID: -5683647795266664540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_90
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76749d72f5acc6a0800000000000000
+      internalID: -6427580107256990081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_91
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 65
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff369e93ab9988d0800000000000000
+      internalID: -2843570562665136142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_92
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 69
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bde751b58940940800000000000000
+      internalID: 5261497781645663034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_93
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564c80fe1c39efbb0800000000000000
+      internalID: -4900316883384220571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_94
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 68
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78134419089ac8b0800000000000000
+      internalID: -5131121660673189763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_95
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 66
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5907558eefa8510800000000000000
+      internalID: 1552333295401866723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_96
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e709cb76e826049b0800000000000000
+      internalID: -5097966414418112386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_97
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5921c8599077f6f30800000000000000
+      internalID: 4571003029851738773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_98
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3839959ee2423dbf0800000000000000
+      internalID: -300856966201633917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_99
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 61
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3af06bdd7a42be0800000000000000
+      internalID: -1502891804950813731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_100
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 60
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556b8364d9e0ca2a0800000000000000
+      internalID: -6724984074920217003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7302ab7edfb992010800000000000000
+      internalID: 1164633493468749879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_102
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 50
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a7706798ee57ed0800000000000000
+      internalID: -2416763350856271248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_103
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d077267f05fe4d80800000000000000
+      internalID: -8264398819422670638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_104
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc127a25a9b324a40800000000000000
+      internalID: 5350904841267257803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_105
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 42
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaf36947d5302dc0800000000000000
+      internalID: -3665870897914053942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_106
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd9cde149efaab0800000000000000
+      internalID: -4994516992359014543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_107
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 37
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d18e5f176928190800000000000000
+      internalID: -7961635775036514954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_108
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2074865451e7f1860800000000000000
+      internalID: 7502854134046410498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_109
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 41
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed85796940e1c8f50800000000000000
+      internalID: 6884910935397849310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_110
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44afec97f7ab24ec0800000000000000
+      internalID: -3584097296766272956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_111
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 41
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23e09f6b2459b5c0800000000000000
+      internalID: -4199232632014183633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_112
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f116449c0cb2d40800000000000000
+      internalID: 5560750135587184527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_113
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 42
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e4b9b13e5afd60800000000000000
+      internalID: 7924750061973858212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_114
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 38
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58098b852c2247b60800000000000000
+      internalID: 7742851877464215685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72ed5730dbf1f7f0800000000000000
+      internalID: -580406005253414275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_116
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1db87ada739d2fc0800000000000000
+      internalID: -3517993578045850342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_117
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642841ea5a3f5e0c0800000000000000
+      internalID: -4546960355844914618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_118
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 22
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0671b34c4f616fe00800000000000000
+      internalID: 1078074401321850720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_119
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb43bb5cd6cc42900800000000000000
+      internalID: 658876217343816895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_120
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30089ccb87892cd30800000000000000
+      internalID: 4450287026126290947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_121
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 29
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92e9c03a0f87d320800000000000000
+      internalID: 2582690185251250844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_122
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb3a46df83d7fa90800000000000000
+      internalID: -7280117657892144153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_123
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f45d247e5c7f040800000000000000
+      internalID: 4681427934724312957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_124
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 11
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2042fdf4c12b9c0800000000000000
+      internalID: -3913033996859866397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_125
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048085074aab35fc0800000000000000
+      internalID: -3507254469369264064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_126
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d7067f32d1201e0800000000000000
+      internalID: -2233190424910987952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esfera_bossWill.img.back.22_127
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ead1b42fc420850800000000000000
+      internalID: 6341715828817112684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      esfera_bossWill.img.back.22_0: -5288630449373464261
+      esfera_bossWill.img.back.22_1: -5698093870084206445
+      esfera_bossWill.img.back.22_10: -6850526495883853096
+      esfera_bossWill.img.back.22_100: -6724984074920217003
+      esfera_bossWill.img.back.22_101: 1164633493468749879
+      esfera_bossWill.img.back.22_102: -2416763350856271248
+      esfera_bossWill.img.back.22_103: -8264398819422670638
+      esfera_bossWill.img.back.22_104: 5350904841267257803
+      esfera_bossWill.img.back.22_105: -3665870897914053942
+      esfera_bossWill.img.back.22_106: -4994516992359014543
+      esfera_bossWill.img.back.22_107: -7961635775036514954
+      esfera_bossWill.img.back.22_108: 7502854134046410498
+      esfera_bossWill.img.back.22_109: 6884910935397849310
+      esfera_bossWill.img.back.22_11: 762198409705792572
+      esfera_bossWill.img.back.22_110: -3584097296766272956
+      esfera_bossWill.img.back.22_111: -4199232632014183633
+      esfera_bossWill.img.back.22_112: 5560750135587184527
+      esfera_bossWill.img.back.22_113: 7924750061973858212
+      esfera_bossWill.img.back.22_114: 7742851877464215685
+      esfera_bossWill.img.back.22_115: -580406005253414275
+      esfera_bossWill.img.back.22_116: -3517993578045850342
+      esfera_bossWill.img.back.22_117: -4546960355844914618
+      esfera_bossWill.img.back.22_118: 1078074401321850720
+      esfera_bossWill.img.back.22_119: 658876217343816895
+      esfera_bossWill.img.back.22_12: 1833193837698583587
+      esfera_bossWill.img.back.22_120: 4450287026126290947
+      esfera_bossWill.img.back.22_121: 2582690185251250844
+      esfera_bossWill.img.back.22_122: -7280117657892144153
+      esfera_bossWill.img.back.22_123: 4681427934724312957
+      esfera_bossWill.img.back.22_124: -3913033996859866397
+      esfera_bossWill.img.back.22_125: -3507254469369264064
+      esfera_bossWill.img.back.22_126: -2233190424910987952
+      esfera_bossWill.img.back.22_127: 6341715828817112684
+      esfera_bossWill.img.back.22_13: 3873693076252170445
+      esfera_bossWill.img.back.22_14: -7038154258117904930
+      esfera_bossWill.img.back.22_15: 6698500494658998972
+      esfera_bossWill.img.back.22_16: -7131073349365717782
+      esfera_bossWill.img.back.22_17: -4003922556315926989
+      esfera_bossWill.img.back.22_18: -1029823491929507066
+      esfera_bossWill.img.back.22_19: -4883529170727643808
+      esfera_bossWill.img.back.22_2: 6573195459913873042
+      esfera_bossWill.img.back.22_20: -1961032422634342044
+      esfera_bossWill.img.back.22_21: -3077053433124960489
+      esfera_bossWill.img.back.22_22: 4691547851253315890
+      esfera_bossWill.img.back.22_23: 427207590469704012
+      esfera_bossWill.img.back.22_24: 4093651473509267503
+      esfera_bossWill.img.back.22_25: -3740355631069344917
+      esfera_bossWill.img.back.22_26: -7864896810757380247
+      esfera_bossWill.img.back.22_27: 6534835396706765260
+      esfera_bossWill.img.back.22_28: 4201793133386288254
+      esfera_bossWill.img.back.22_29: -2292629154177383583
+      esfera_bossWill.img.back.22_3: 4886829451035527969
+      esfera_bossWill.img.back.22_30: 230761225824677115
+      esfera_bossWill.img.back.22_31: 6578089198151746062
+      esfera_bossWill.img.back.22_32: 4463587755444889398
+      esfera_bossWill.img.back.22_33: 1559405003564792625
+      esfera_bossWill.img.back.22_34: 6939451255750336332
+      esfera_bossWill.img.back.22_35: -6392411518818253007
+      esfera_bossWill.img.back.22_36: 879664800991659613
+      esfera_bossWill.img.back.22_37: 8873829246134537188
+      esfera_bossWill.img.back.22_38: -4018461377901703944
+      esfera_bossWill.img.back.22_39: -7926992424865446955
+      esfera_bossWill.img.back.22_4: -5904391186431665909
+      esfera_bossWill.img.back.22_40: 5369709536703270701
+      esfera_bossWill.img.back.22_41: -963148363441206896
+      esfera_bossWill.img.back.22_42: -3543754426001367531
+      esfera_bossWill.img.back.22_43: 267277189457560609
+      esfera_bossWill.img.back.22_44: 2039333339078803486
+      esfera_bossWill.img.back.22_45: -3608563500541119214
+      esfera_bossWill.img.back.22_46: -2950714595510878305
+      esfera_bossWill.img.back.22_47: 8139367258274009713
+      esfera_bossWill.img.back.22_48: -4851019778464713882
+      esfera_bossWill.img.back.22_49: -1189580073320697529
+      esfera_bossWill.img.back.22_5: 4130592701875741831
+      esfera_bossWill.img.back.22_50: 8789056455731842511
+      esfera_bossWill.img.back.22_51: -6347481961159171602
+      esfera_bossWill.img.back.22_52: 3441860019272321682
+      esfera_bossWill.img.back.22_53: -2461462550044460043
+      esfera_bossWill.img.back.22_54: 3171614442633427672
+      esfera_bossWill.img.back.22_55: -5370327527860541354
+      esfera_bossWill.img.back.22_56: 2104656395554881391
+      esfera_bossWill.img.back.22_57: -3756203521126108825
+      esfera_bossWill.img.back.22_58: -2829863371057837012
+      esfera_bossWill.img.back.22_59: 4544060944158908225
+      esfera_bossWill.img.back.22_6: -5713361541767529309
+      esfera_bossWill.img.back.22_60: 8432979205368601321
+      esfera_bossWill.img.back.22_61: 7020905877471145449
+      esfera_bossWill.img.back.22_62: 1543226942498137850
+      esfera_bossWill.img.back.22_63: -6735895744169652422
+      esfera_bossWill.img.back.22_64: 7396926412023903708
+      esfera_bossWill.img.back.22_65: 1368486833851419190
+      esfera_bossWill.img.back.22_66: 2337586758382347838
+      esfera_bossWill.img.back.22_67: 5315022267976659019
+      esfera_bossWill.img.back.22_68: -8364356754835137614
+      esfera_bossWill.img.back.22_69: 3080606693598561441
+      esfera_bossWill.img.back.22_7: 855640399978534344
+      esfera_bossWill.img.back.22_70: 5924072752563899893
+      esfera_bossWill.img.back.22_71: -5191728143805488432
+      esfera_bossWill.img.back.22_72: -5277530735466699167
+      esfera_bossWill.img.back.22_73: -4415080074295582944
+      esfera_bossWill.img.back.22_74: 6182270257053428313
+      esfera_bossWill.img.back.22_75: -1831419357536966280
+      esfera_bossWill.img.back.22_76: -4437422479313557374
+      esfera_bossWill.img.back.22_77: -1894993313269014696
+      esfera_bossWill.img.back.22_78: -7260856947096155832
+      esfera_bossWill.img.back.22_79: -6311853975083283591
+      esfera_bossWill.img.back.22_8: 5264153325046354922
+      esfera_bossWill.img.back.22_80: -809455580747984718
+      esfera_bossWill.img.back.22_81: -3905584343110147733
+      esfera_bossWill.img.back.22_82: -3836071099386944980
+      esfera_bossWill.img.back.22_83: -9220202089092615227
+      esfera_bossWill.img.back.22_84: 1379873390012254436
+      esfera_bossWill.img.back.22_85: -5254773615239984667
+      esfera_bossWill.img.back.22_86: -298934751707762161
+      esfera_bossWill.img.back.22_87: -6891901538243905111
+      esfera_bossWill.img.back.22_88: 6395846615783190174
+      esfera_bossWill.img.back.22_89: -5683647795266664540
+      esfera_bossWill.img.back.22_9: -3272686727476969184
+      esfera_bossWill.img.back.22_90: -6427580107256990081
+      esfera_bossWill.img.back.22_91: -2843570562665136142
+      esfera_bossWill.img.back.22_92: 5261497781645663034
+      esfera_bossWill.img.back.22_93: -4900316883384220571
+      esfera_bossWill.img.back.22_94: -5131121660673189763
+      esfera_bossWill.img.back.22_95: 1552333295401866723
+      esfera_bossWill.img.back.22_96: -5097966414418112386
+      esfera_bossWill.img.back.22_97: 4571003029851738773
+      esfera_bossWill.img.back.22_98: -300856966201633917
+      esfera_bossWill.img.back.22_99: -1502891804950813731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
