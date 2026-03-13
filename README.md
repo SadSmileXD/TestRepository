@@ -39,3 +39,23 @@
 시트1, 시트2의 zombie 잘 출력되는게 보인다. 
 
 ![alt text](image-8.png)
+
+
+---
+### ISheetParsable, IIdentifiable 사용한 이유
+
+- 먼저  ISheetParsable  
+파싱한 데이터를 어떻게 담을지 모르는 상황이니   
+인터페이스 하나 만들어서 하나의 행 데이터들을 받아오면   
+데이터 구조에 맞게 역직렬화가 가능하기 때문에 인터페이스 사용
+
+![alt text](image-9.png)
+
+---
+
+다음 IIdentifiable  
+이름으로 찾는게 편해서  string 프로퍼티를 하나 인터페이스로 만듦
+
+로드한 데이터들 중 특정 이름으로 데이터로 가져다 쓸 때 편함
+
+![alt text](image-10.png)

@@ -7,7 +7,7 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 [System.Serializable]
-public class SheetLoader<T> where T : ISheetParsable  , IIdentifiable, new()
+public class SheetLoader<T> where T :  ISheetParsable, IIdentifiable,new()
 {
     private string m_url;
     private bool _isLoaded = false;
@@ -106,7 +106,8 @@ public class SheetLoader<T> where T : ISheetParsable  , IIdentifiable, new()
 
         foreach (var item in Datas)
         {
-            if(item.Value.Name== DataName)
+           
+            if (item.Value.Name== DataName)
             {
                 return item.Value;
             }
