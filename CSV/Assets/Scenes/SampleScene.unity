@@ -442,6 +442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1090676271}
   - component: {fileID: 1090676272}
+  - component: {fileID: 1090676273}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -471,61 +472,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090676269}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e596ac8f9e581949b376af0222655b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Test
   url: https://docs.google.com/spreadsheets/d/1wg500iIV1uOnXAMFcGXYGLYP2VEUKP_0mUsT3mlhoaM/edit?gid=0#gid=0
-  gid: 0
+  gid: 79004808
   Ldata: []
---- !u!1 &1601689331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1601689333}
-  - component: {fileID: 1601689332}
-  m_Layer: 0
-  m_Name: GameObject (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1601689332
+--- !u!114 &1090676273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601689331}
+  m_GameObject: {fileID: 1090676269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e596ac8f9e581949b376af0222655b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a2d25dc28c93cc42aeb5b88b72c0d48, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Test
-  url: https://docs.google.com/spreadsheets/d/1wg500iIV1uOnXAMFcGXYGLYP2VEUKP_0mUsT3mlhoaM/edit?gid=0#gid=0
-  gid: 1408604447
-  Ldata: []
---- !u!4 &1601689333
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601689331}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::dsdsdasfdsg
+  m_Listdata:
+  - {fileID: 11400000, guid: 3f3a33dfd30acf246aa6d4c7198daba2, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -534,4 +502,3 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1090676271}
-  - {fileID: 1601689333}
