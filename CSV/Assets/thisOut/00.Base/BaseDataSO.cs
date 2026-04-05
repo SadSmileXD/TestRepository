@@ -6,6 +6,6 @@ public  abstract class BaseDataSO : ScriptableObject
     public string url;
     [Header("사이트 URL 끝에 gid번호 있는데 시트마다 확인해서 해야함")]//기본 첫 시트는 0 인거 같음 그래도 확인 필수
     public int gid;
-
+    public string genericType;
     public abstract Task InitAsync();
 }
