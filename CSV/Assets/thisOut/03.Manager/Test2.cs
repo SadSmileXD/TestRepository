@@ -2,24 +2,20 @@ using UnityEngine;
 
 public class Test2 : MonoBehaviour
 {
-    public DataManager dataManager;
+    public googleSheetManager Manager;
 
-    void Start()
-    {
-       
-    }
+ 
     [ContextMenu("dsds")]
     public void dsds()
     {
         // 1. 매니저에서 Char2Data(SO)를 가져옵니다. 반환 타입이 Char2Data로 깔끔하게 나옵니다!
-        var charSO = dataManager.GetData<QuestData>();
+        var charSO = Manager.GetClassData<QuestData>();
 
         if (charSO != null)
         {
             // 2. 형변환할 필요 없이 자식 클래스의 메서드를 바로 쓸 수 있습니다.
-            var myAttackInfo = charSO.returnValue("ss");
-
-            Debug.Log($"공격력: {myAttackInfo.Name}");
+            var myAttackInfo = charSO.FindById("ss");
+            Debug.Log($"공격력: {myAttackInfo.uniqueId}");
         }
     }
 }

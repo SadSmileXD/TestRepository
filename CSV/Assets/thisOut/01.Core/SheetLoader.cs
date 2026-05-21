@@ -108,7 +108,7 @@ public class SheetLoader<T> where T :  ISheetParsable, IIdentifiable,new()
         foreach (var item in Datas)
         {
            
-            if (item.Value.Name== DataName)
+            if (item.Value.uniqueId== DataName)
             {
                 return item.Value;
             }
