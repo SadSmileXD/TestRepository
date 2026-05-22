@@ -36,24 +36,30 @@ SO를 만들기위해서 CreateAssetMenu 속성을 사용한다.
    ---
    ![alt text](image-4.png)
 
-- SO를 생성시키면 다음과 같다.
-![alt text](image-5.png)
+- SO를 생성시키면 다음과 같다.  
+
+![alt text](image-5.png)  
+
 - 여기서  구글 시트 URL를 통으로 긁어다가 붙여주고
 - url 뒤에 gid 번호를 따로 입력해준다.
 ![alt text](image-6.png)
-![alt text](image-9.png)
+![alt text](image-9.png)  
+
 - 만든 SO를 구글시트매니저에 넣어준다.  
-- 그리고 구글시트 불러오기 버튼을 눌러주면 된다.
+- 그리고 구글시트 불러오기 버튼을 눌러주면 된다.  
+
 ![alt text](image-8.png)
 
 - 지금은 3행부터 가져오게 되어있는데
 
-SheetLoader클래스에서 ParseCSV함수가 있는데.
+SheetLoader클래스에서 ParseCSV함수가 있는데.  
+
 ![alt text](image-10.png)  
 
 for문에 int i=2를 수정해주면 된다.  
 
-![alt text](image-11.png)
+![alt text](image-11.png)  
+
 - 1로 수정했더니 2행부터 잘 가져와진다.  
 ----
 
