@@ -1,4 +1,4 @@
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,6 +51,7 @@ public class SheetLoader<T> where T :  ISheetParsable, IIdentifiable,new()
     }
     void ParseCSV(string csv)
     {
+       
         // 줄 분리
         string[] lines = csv.Split(new[] { "\r\n", "\n" }, System.StringSplitOptions.RemoveEmptyEntries);
       

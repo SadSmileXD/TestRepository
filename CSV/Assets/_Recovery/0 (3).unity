@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::dsdsdasfdsg
   m_Listdata:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 3f3a33dfd30acf246aa6d4c7198daba2, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

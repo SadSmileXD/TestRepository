@@ -1,23 +1,17 @@
+﻿#if UNITY_EDITOR
 using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+
+using UnityEditor;
 public class googleSheetManager : MonoBehaviour
 {
     public List<BaseDataSO> m_Listdata = new List<BaseDataSO>();
      
-    
-    //async void Awake()
-    //{
-    //    List<Task> tasks = new List<Task>();
-    //    foreach (var item in m_Listdata)
-    //    {
-    //        tasks.Add(item.InitAsync());
-    //    }
-    //    await Task.WhenAll(tasks);
-    //}
-    [ContextMenu("데이터 로드하기")]
-    async void DataLoad()
+
+     
+    public async void DataLoad()
     {
         List<Task> tasks = new List<Task>();
         foreach (var item in m_Listdata)
@@ -41,3 +35,26 @@ public class googleSheetManager : MonoBehaviour
         return null;
     }
 }
+[CustomEditor(typeof(googleSheetManager))]
+public class MyDataControllerEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        // 기존 인스펙터의 기본 필드들(sheetUrl 등)을 그대로 먼저 그려줍니다.
+        DrawDefaultInspector();
+
+        // 타겟 스크립트를 가져옵니다.
+        googleSheetManager generator = (googleSheetManager)target;
+
+        // 위아래 여백을 살짝 줍니다.
+        GUILayout.Space(15);
+
+        // 💡 버튼 만들기 (버튼이 클릭되면 true를 반환합니다)
+        if (GUILayout.Button("구글 시트 불러오기", GUILayout.Height(40)))
+        {
+            // 버튼을 누르면 실행될 로직
+            generator.DataLoad();
+        }
+    }
+}
+#endif
