@@ -11,9 +11,11 @@
 
  ![alt text](image.png)
  
-- 파싱할 구글시트의 액세스 설정을 링크가 있는 모든 사용자로 변경
+- 파싱할 구글시트의 액세스 설정을 링크가 있는 모든 사용자로 변경  
 
-![alt text](image-1.png)
+
+![alt text](image-1.png)  
+
 
 - 구글 시트 매니저 스크립트를 하이라이키 창에 만든다.
 ![alt text](image-2.png)
