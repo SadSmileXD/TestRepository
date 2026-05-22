@@ -17,8 +17,11 @@
 ![alt text](image-1.png)  
 
 
-- 구글 시트 매니저 스크립트를 하이라이키 창에 만든다.
-![alt text](image-2.png)
+
+- 구글 시트 매니저 스크립트를 하이라이키 창에 만든다.  
+
+![alt text](image-2.png)  
+
 - 직렬화가 되도록 ``[System.Serializable]`` 작성
 
 -  public override void ApplyRowData(string[] Data) 완성하기
@@ -26,7 +29,8 @@
 -  this.uniqueId <-- 데이터 식별용 string 이다 구글시트에서 ID속한 값을 넣어주면된다.
    
    ---
-![alt text](image-3.png)
+![alt text](image-3.png)  
+
 - So 데이터를 만들어야하는데 구분용 클래스명 만들고  
 `` : SheetDataSO<PlayerData> 상속시킨다.``
 
