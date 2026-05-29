@@ -32,7 +32,7 @@ public static class Extensionshuffle
             return allData;  
         }
 
-        // 3. 🎲 피셔-예이츠(Fisher-Yates) 셔플로 리스트를 완전히 무작위로 섞어버립니다.
+        // 3.   피셔-예이츠(Fisher-Yates) 셔플로 리스트를 완전히 무작위로 섞어버립니다.
         int n = allData.Count;
         for (int i = n - 1; i > 0; i--)
         {

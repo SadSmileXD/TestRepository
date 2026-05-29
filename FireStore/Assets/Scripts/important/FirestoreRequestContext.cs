@@ -20,10 +20,6 @@ public class FirestoreRequestContext
         await _targetStore.SetDataAsync(data);
     }
 
-    public async Task<DocumentSnapshot> GetAsync()
-    {
-        return await _targetStore.GetSnapshotAsync();
-    }
     public async Task<T> GetAsync<T>()
     {
         return await _targetStore.GetSnapshotAsync<T>();
@@ -36,7 +32,7 @@ public class FirestoreRequestContext
 
     public async Task DeleteAsync( )
     {
-        await _targetStore.DeleteDataAsync();
+      await _targetStore.DeleteDataAsync();
     }
 
     

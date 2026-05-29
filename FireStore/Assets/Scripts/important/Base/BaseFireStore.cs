@@ -9,7 +9,7 @@ using UnityEngine;
 
 
 
-public abstract class BaseFireStore : ScriptableObject
+public  class BaseFireStore : ScriptableObject
 {
     
     public List<string> m_collections = new List<string>();
@@ -17,7 +17,7 @@ public abstract class BaseFireStore : ScriptableObject
     public DocumentReference currentRef;
     public CollectionReference currentCollection;
     // 매니저에서 딕셔너리 매핑용으로 쓸 식별자
-  [SerializeField] private DataType m_EnumType;
+   [SerializeField] private DataType m_EnumType;
     public DataType EnumType => m_EnumType;
 
     // 보호 수준을 protected로 변경하거나 매니저가 주입해주는 용도로 사용
@@ -38,9 +38,9 @@ public abstract class BaseFireStore : ScriptableObject
 
        
     }
-    public abstract Task SetDataAsync(object data);
+    public virtual async Task SetDataAsync(object data) => await currentRef.SetAsync(data);
 
-    public abstract Task<DocumentSnapshot> GetSnapshotAsync();
+   
     public virtual async Task<T> GetSnapshotAsync<T>()
     {
         DocumentSnapshot snapshot = await currentRef.GetSnapshotAsync();
@@ -52,49 +52,56 @@ public abstract class BaseFireStore : ScriptableObject
         Debug.LogWarning("문서를 찾을 수 없습니다.");
         return default(T);
     }
-    public virtual async Task UpdateDataAsync<T>(Dictionary<string, object> data, bool flag=false)
+    public virtual async Task UpdateDataAsync<T>(Dictionary<string, object> data, bool flag = false)
     {
         Type m_TargetDataType = typeof(T);
-        PropertyInfo[] properties = m_TargetDataType.GetProperties(BindingFlags.Public | BindingFlags.Instance);
 
-        foreach (PropertyInfo property in properties)
+        // DTO의 프로퍼티들을 검색하기 쉽게 사전에 딕셔너리 형태로 만듭니다.
+        var propertyDict = m_TargetDataType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
+                                           .ToDictionary(p => p.Name);
+
+        // 1️⃣ [검증 단계] 내가 변경 요청한 data 딕셔너리의 키들을 검사합니다.
+        foreach (var kvp in data)
         {
-            if (data.ContainsKey(property.Name))
+            if (propertyDict.TryGetValue(kvp.Key, out PropertyInfo property))
             {
-                if (flag ==false)
+                if (flag == false)
                 {
-                    TryDataCheck(property,data);
+                    // 데이터 타입이나 유효성을 루프를 돌며 검증합니다.
+                    await TryDataCheck(property, data);
                 }
-                else
-                {
-                    await currentRef.UpdateAsync(data);
-                }
-               
             }
             else
             {
-                Debug.LogError("같은 필드가 존재 하지 않습니다.");
-                
+                // DTO에 없는 엉뚱한 필드가 들어왔을 때 경고를 남기고 중단합니다.
+                Debug.LogError($"[Update Error] {m_TargetDataType.Name} 구조체에 '{kvp.Key}' 필드가 존재하지 않습니다.");
+                return;
             }
         }
 
-    }
-    public virtual Task DeleteDataAsync()
-    {
-        currentRef.DeleteAsync().ContinueWithOnMainThread(task =>
+        // 2️⃣ [실행 단계] 검증이 무사히 끝나거나, 처음부터 flag가 true였다면 
+        // 루프 바깥에서 딱 "한 번만" 서버에 업데이트를 요청합니다.
+        if (flag == true)
         {
-            if (task.IsCompletedSuccessfully)
-            {
-                Debug.Log($"✅ {currentRef.Path} 경로의 문서 삭제 완료!");
-            }
-            else
-            {
-                Debug.LogError($"❌ {currentRef.Path} 경로의 문서 삭제 실패: {task.Exception}");
-            }
-        });
-        return Task.CompletedTask;
+            await currentRef.UpdateAsync(data);
+            Debug.Log($"✅ {currentRef.Path} 문서 업데이트 완료!");
+        }
     }
-    private async void TryDataCheck(PropertyInfo property, Dictionary<string, object> data)
+    public virtual async Task DeleteDataAsync()
+    {
+        try
+        {
+            // 콜백 대신 동기 코드처럼 슥 읽히도록 await로 대기합니다.
+            await currentRef.DeleteAsync();
+            Debug.Log($"  {currentRef.Path} 경로의 문서 삭제 완료!");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"  {currentRef.Path} 경로의 문서 삭제 실패: {ex.Message}");
+        }
+
+    }
+    private async  Task TryDataCheck(PropertyInfo property, Dictionary<string, object> data)
     {
         Debug.Log("같음");
         var Datatype = property.PropertyType;

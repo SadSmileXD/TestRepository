@@ -169,7 +169,7 @@ public class FireStoreManager : MonoBehaviour
     [ContextMenu("delete")]
     public async void Delete()
     {
-        await  FireStoreManager.DocumentType(DataType.Test).DeleteAsync();
+         FireStoreManager.DocumentType(DataType.Test).DeleteAsync();
     }
     [ContextMenu("확장메소드 체크")]
     public   void  Extens()

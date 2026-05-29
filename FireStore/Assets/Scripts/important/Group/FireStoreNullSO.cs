@@ -15,7 +15,7 @@ public class FireStoreNullSO : BaseFireStore
         Debug.LogError("\"매니저 클래스를 확인 및 SO를 확인 바람\");"); 
        
     }
-    public override Task DeleteDataAsync()
+    public override   Task DeleteDataAsync()
     {
         PrintLog();
         //  "아무 일도 안 하고 이미 성공적으로 끝난 작업"을 던져줍니다.
@@ -36,12 +36,7 @@ public class FireStoreNullSO : BaseFireStore
     }
 
     // 2. 반환값(결과물)이 있는 비동기 작업 (Task<T>)
-    public override Task<DocumentSnapshot> GetSnapshotAsync()
-    {
-        PrintLog();
-        //   결과물 상자 안에 null을 채워서 이미 완료된 상태로 리턴합니다.
-        return Task.FromResult<DocumentSnapshot>(null);
-    }
+    
 
     public override Task<T> GetSnapshotAsync<T>()
     {
