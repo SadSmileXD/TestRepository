@@ -16,6 +16,7 @@ public enum DataType
 public class FireStoreManager : MonoBehaviour
 {
     public SNSPostDTO m_data=new();
+
     private FirebaseFirestore db;
     public static FireStoreManager Instance { get; private set; }
     [SerializeField] private List<BaseFireStore> m_Data;
@@ -24,7 +25,7 @@ public class FireStoreManager : MonoBehaviour
     private async void Awake()
     {
         InitSingleton();
-        InitFirebase();
+       await InitFirebaseAsync();
         InitDictionary();
       
     }
@@ -41,7 +42,7 @@ public class FireStoreManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-    private async void InitFirebase()
+    private async Task InitFirebaseAsync()
     {
         await FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(async task =>
         {
@@ -163,7 +164,7 @@ public class FireStoreManager : MonoBehaviour
           { "Comment", "zzzz" } //  
         };
          
-        await FireStoreManager.DocumentType(DataType.Test)?.UpdateAsync<SNSPostDTO>(updates);
+        await FireStoreManager.DocumentType(DataType.Test).UpdateAsync<SNSPostDTO>(updates);
     }
     [ContextMenu("delete")]
     public async void Delete()
