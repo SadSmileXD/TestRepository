@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "835959211130",
+    "project_id": "firestore-32a47",
+    "storage_bucket": "firestore-32a47.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835959211130:android:1fb61a4e3523b6878d27c3",
+        "android_client_info": {
+          "package_name": "come.sadSmile.TeamProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835959211130-ffqm0805iqvp68ebciauhosjv3q8af1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6jyAvLJUtMHrZEljRVOGe_ZD4nBmpQlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835959211130-ffqm0805iqvp68ebciauhosjv3q8af1p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835959211130-k3s2g66v5rt0q98jddtnvjrgb3i7ocve.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "come.sadSmile.TeamProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
