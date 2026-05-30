@@ -17,19 +17,22 @@ public class FireStoreManager : MonoBehaviour
 {
     public SNSPostDTO m_data=new();
 
-    private FirebaseFirestore db;
+    private  static FirebaseFirestore m_db;
     public static FireStoreManager Instance { get; private set; }
     [SerializeField] private List<BaseFireStore> m_Data;
     private static Dictionary<DataType, BaseFireStore> m_DataDictionary;
-  
-    private async void Awake()
+    private static FireStoreNullSO m_NullSO;   
+    private   void Awake()
     {
         InitSingleton();
-       await InitFirebaseAsync();
-        InitDictionary();
-      
     }
+    private async void Start()
+    {
+        await InitFirebaseAsync(); // 완전히 파이어베이스 연결이 끝날 때까지 대기
+        InitDictionary();         // 연결이 완료된 후 안전하게 딕셔너리 채우기
 
+    
+    }
     private void InitSingleton()
     {
       
@@ -50,8 +53,8 @@ public class FireStoreManager : MonoBehaviour
             if (status == DependencyStatus.Available)
             {
                 Debug.Log("Firebase 초기화 성공");
-
-                db = FirebaseFirestore.DefaultInstance;
+                m_NullSO= ScriptableObject.CreateInstance<FireStoreNullSO>();
+                m_db = FirebaseFirestore.DefaultInstance;
                 BindClass();
             }
             else
@@ -64,7 +67,7 @@ public class FireStoreManager : MonoBehaviour
     {
         foreach (BaseFireStore item in m_Data)
         {
-            item.InitDataBase(db);
+            item.InitDataBase(m_db);
             Debug.Log("BindClass");
         }
         
@@ -80,8 +83,7 @@ public class FireStoreManager : MonoBehaviour
     {
         if(!m_DataDictionary.ContainsKey(type))
         {
-            var nullparteen = new FireStoreNullSO();
-            return new FirestoreRequestContext(nullparteen);
+            return new FirestoreRequestContext(m_NullSO);
         }
         else
         {
@@ -90,6 +92,7 @@ public class FireStoreManager : MonoBehaviour
         }
     }
 
+    public static FirebaseFirestore  db => m_db;
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     [ContextMenu("Test")]
@@ -169,7 +172,7 @@ public class FireStoreManager : MonoBehaviour
     [ContextMenu("delete")]
     public async void Delete()
     {
-         FireStoreManager.DocumentType(DataType.Test).DeleteAsync();
+        await FireStoreManager.DocumentType(DataType.Test).DeleteAsync();
     }
     [ContextMenu("확장메소드 체크")]
     public   void  Extens()
@@ -178,7 +181,7 @@ public class FireStoreManager : MonoBehaviour
     }
     private async Task Test()
     {
-
+       
         Dictionary<string, object> updates = new Dictionary<string, object>
         {
           { "Comment", "zzzz" } //  
