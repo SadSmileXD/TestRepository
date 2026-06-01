@@ -21,13 +21,17 @@ public  class BaseFireStore : ScriptableObject
    [SerializeField] private DataType m_EnumType;
     public DataType EnumType => m_EnumType;
 
-    // 보호 수준을 protected로 변경하거나 매니저가 주입해주는 용도로 사용
+   
     protected FirebaseFirestore db;
+
+    protected static readonly Dictionary<Type, Dictionary<string, PropertyInfo>> propertyCache =
+    new Dictionary<Type, Dictionary<string, PropertyInfo>>();
 
     public virtual void InitDataBase(FirebaseFirestore database,string YouserID=null)
     {
         db = database;
         //m_documents  = Auth.uid 넣기
+        //첫번째 경로는 컬렉션 Users  / 문서 :userUID 넣을 예정
         currentRef = db.Collection(m_collections[0]).Document(m_documents[0]);
         currentCollection = db.Collection(m_collections[0]);
         for (int i = 1; i < m_documents.Count; i++)
@@ -93,53 +97,50 @@ public  class BaseFireStore : ScriptableObject
     //        Debug.Log($"✅ {currentRef.Path} 문서 업데이트 완료!");
     //    }
     //}
-    public virtual async Task UpdateDataAsync<T>(Dictionary<string, object> data, bool flag = false)
+    public virtual async Task UpdateDataAsync<T>(
+     Dictionary<string, object> data,
+     bool skipValidation = false)
     {
-        if (data == null || data.Count == 0) return;
-
-        // 1️⃣ [검증 단계] flag가 false일 때만 전체 데이터를 검사합니다.
-        if (flag == false)
+        if (data == null || data.Count == 0)
         {
-            Type m_TargetDataType = typeof(T);
-            var propertyDict = m_TargetDataType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
-                                               .ToDictionary(p => p.Name);
+            Debug.LogWarning("업데이트할 데이터가 없습니다.");
+            return;
+        }
+
+        if (!skipValidation)
+        {
+            Type targetType = typeof(T);
+            var propertyDict = GetPropertyCache(targetType);
 
             foreach (var kvp in data)
             {
-                if (propertyDict.TryGetValue(kvp.Key, out PropertyInfo property))
+                if (!propertyDict.TryGetValue(kvp.Key, out PropertyInfo property))
                 {
-                    var Datatype = property.PropertyType;
-                    var getTypvalue = kvp.Value?.GetType();
-
-                    // 타입이 일치하지 않는 경우
-                    if (kvp.Value != null && Datatype != getTypvalue)
-                    {
-                        Debug.LogError($"[Update Error] {m_TargetDataType.Name}.{kvp.Key} 타입 불일치! 기대: {Datatype}, 입력: {getTypvalue}");
-                        return; // ❌ 하나라도 잘못되면 서버 요청을 일절 하지 않고 즉시 함수를 종료합니다!
-                    }
+                    Debug.LogError($"[Update Error] {targetType.Name} 구조체에 '{kvp.Key}' 필드가 존재하지 않습니다.");
+                    return;
                 }
-                else
+
+                Type expectedType = property.PropertyType;
+                Type inputType = kvp.Value?.GetType();
+
+                if (kvp.Value != null && expectedType != inputType)
                 {
-                    // DTO 구조체에 없는 엉뚱한 필드명이 들어온 경우
-                    Debug.LogError($"[Update Error] {m_TargetDataType.Name} 구조체에 '{kvp.Key}' 필드가 존재하지 않습니다.");
-                    return; // ❌ 즉시 종료
+                    Debug.LogError($"[Update Error] {targetType.Name}.{kvp.Key} 타입 불일치! 기대: {expectedType}, 입력: {inputType}");
+                    return;
                 }
             }
         }
-
-        // 2️⃣ [실행 단계] 
-        // 처음부터 flag가 true였거나, flag가 false여서 위의 검증 루프를 "에러 없이 완벽히 통과한 경우"에만
-        // 루프 바깥인 여기로 도달하여 딱 "한 번만" 서버에 요청을 보냅니다.
         try
         {
             await currentRef.UpdateAsync(data);
-            Debug.Log($"✅ {currentRef.Path} 문서 업데이트 완료!");
+            Debug.Log($" {currentRef.Path} 문서 업데이트 완료!");
         }
         catch (Exception ex)
         {
-            Debug.LogError($"❌ {currentRef.Path} 문서 업데이트 실패: {ex.Message}");
+            Debug.LogError($" {currentRef.Path} 문서 업데이트 실패: {ex.Message}");
         }
     }
+
     public virtual async Task DeleteDataAsync()
     {
         try
@@ -154,5 +155,19 @@ public  class BaseFireStore : ScriptableObject
         }
 
     }
-    
+    private Dictionary<string, PropertyInfo> GetPropertyCache(Type targetType)
+    {
+        if (propertyCache.TryGetValue(targetType, out var cachedProperties))
+        {
+            return cachedProperties;
+        }
+
+        var propertyDict = targetType
+            .GetProperties(BindingFlags.Public | BindingFlags.Instance)
+            .ToDictionary(p => p.Name);
+
+        propertyCache[targetType] = propertyDict;
+
+        return propertyDict;
+    }
 }

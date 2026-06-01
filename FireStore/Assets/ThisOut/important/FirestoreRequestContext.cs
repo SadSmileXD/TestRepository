@@ -1,4 +1,5 @@
 ﻿using Firebase.Firestore;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -6,7 +7,7 @@ public class FirestoreRequestContext
 {
     private readonly BaseFireStore _targetStore;
     public BaseFireStore TargetStore => _targetStore;
-
+     
     public FirestoreRequestContext(BaseFireStore targetStore)
     {
         _targetStore = targetStore;

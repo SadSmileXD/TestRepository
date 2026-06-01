@@ -8,7 +8,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TestSO", menuName = "ScriptableObjects/TestSO")]
 public class TestSO : BaseFireStore
 {
-     
 
- 
 }

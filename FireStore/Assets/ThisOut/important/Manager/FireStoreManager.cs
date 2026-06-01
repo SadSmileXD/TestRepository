@@ -16,12 +16,13 @@ public enum DataType
 public class FireStoreManager : MonoBehaviour
 {
     public SNSPostDTO m_data=new();
-
+    public List<SNSPostDTO> TestList = new List<SNSPostDTO>();  
     private  static FirebaseFirestore m_db;
     public static FireStoreManager Instance { get; private set; }
     [SerializeField] private List<BaseFireStore> m_Data;
     private static Dictionary<DataType, BaseFireStore> m_DataDictionary;
-    private static FireStoreNullSO m_NullSO;   
+    private static FireStoreNullSO m_NullSO;
+     
     private   void Awake()
     {
         InitSingleton();
@@ -106,6 +107,7 @@ public class FireStoreManager : MonoBehaviour
     {
         SNSPostDTO testPost = new SNSPostDTO
         {
+            RandomId = UnityEngine.Random.value,
             // 1. 기본 필드
             ImageIndex = 2,
             Comment = "오늘 새로 산 스티커로 꾸며본 내 고양이 사진! 너무 귀엽지 않나요? 🐱✨ #반려동물 #일상",
@@ -150,6 +152,7 @@ public class FireStoreManager : MonoBehaviour
                 Rotation = Math.Round(45.0f, 2)
             }
         }
+
         }; await FireStoreManager.DocumentType(DataType.Test)
             .SetAsync(testPost);
     }
@@ -175,9 +178,10 @@ public class FireStoreManager : MonoBehaviour
         await FireStoreManager.DocumentType(DataType.Test).DeleteAsync();
     }
     [ContextMenu("확장메소드 체크")]
-    public   void  Extens()
+    public   async void  Extens()
     {
-        var data=FireStoreManager.DocumentType(DataType.Test).GetRandomSixData<SNSPostDTO>();
+        var data= await FireStoreManager.DocumentType(DataType.Test).GetRandomSixData<SNSPostDTO>();
+        TestList = data;
     }
     private async Task Test()
     {
@@ -186,7 +190,6 @@ public class FireStoreManager : MonoBehaviour
         {
           { "Comment", "zzzz" } //  
         };
-        //await FireStoreManager.DocumentType(DataType.Test).UpdateAsync(updates);
        await  FireStoreManager.DocumentType(DataType.None)?.UpdateAsync<SNSPostDTO>(updates);
     }
 }
@@ -201,7 +204,7 @@ public struct StickerTransformData
 }
 
 [System.Serializable]
-[FirestoreData] // 👈 파이어스토어 변환기 활성화
+[FirestoreData] //  파이어스토어 변환기 활성화
 public struct UIShaderProperty
 {
    [field: SerializeField] [FirestoreProperty] public double Brightness { get; set; }
@@ -211,7 +214,7 @@ public struct UIShaderProperty
 }
 
 [System.Serializable]
-[FirestoreData] // 👈 파이어스토어 변환기 활성화
+[FirestoreData] //  파이어스토어 변환기 활성화
 public struct SNSPostDTO
 {
     // 만약 uid나 id 필드가 있다면 여기에 추가하고 [FirestoreProperty]를 붙이세요.
@@ -221,4 +224,6 @@ public struct SNSPostDTO
    [field: SerializeField] [FirestoreProperty] public string Comment { get; set; }
    [field: SerializeField] [FirestoreProperty] public List<StickerTransformData> Stickers { get; set; }
     [field: SerializeField][FirestoreProperty] public List<string> Hashtags { get; set; }
+    [field: SerializeField][FirestoreProperty] public double RandomId { get; set; }
+
 }
