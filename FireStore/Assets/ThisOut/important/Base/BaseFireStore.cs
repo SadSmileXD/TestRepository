@@ -56,50 +56,8 @@ public  class BaseFireStore : ScriptableObject
         Debug.LogWarning("문서를 찾을 수 없습니다.");
         return default(T);
     }
-    //public virtual async Task UpdateDataAsync<T>(Dictionary<string, object> data, bool flag = false)
-    //{
-    //    Type m_TargetDataType = typeof(T);
-
-    //    // DTO의 프로퍼티들을 검색하기 쉽게 사전에 딕셔너리 형태로 만듭니다.
-    //    var propertyDict = m_TargetDataType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
-    //                                       .ToDictionary(p => p.Name);
-
-    //    // 1️⃣ [검증 단계] 내가 변경 요청한 data 딕셔너리의 키들을 검사합니다.
-    //    foreach (var kvp in data)
-    //    {
-    //        if (propertyDict.TryGetValue(kvp.Key, out PropertyInfo property))
-    //        {
-    //            if (flag == false)
-    //            {
-    //                Debug.Log("같음");
-    //                var Datatype = property.PropertyType;
-    //                object dictionaryValue = data[property.Name];
-    //                var getTypvalue = dictionaryValue.GetType();
-
-    //                Debug.Log($"Datatype: {Datatype}");
-    //                Debug.Log($"getTypvalue: {getTypvalue}");
-    //                bool sameType = Datatype == getTypvalue;
-    //                if (sameType)
-    //                {
-    //                    Debug.Log($"데이터 타입 같음");
-    //                    await currentRef.UpdateAsync(data);
-    //                }
-    //            }
-    //        }
-
-    //    }
-
-    //    // 2️⃣ [실행 단계] 검증이 무사히 끝나거나, 처음부터 flag가 true였다면 
-    //    // 루프 바깥에서 딱 "한 번만" 서버에 업데이트를 요청합니다.
-    //    if (flag == true)
-    //    {
-    //        await currentRef.UpdateAsync(data);
-    //        Debug.Log($"✅ {currentRef.Path} 문서 업데이트 완료!");
-    //    }
-    //}
-    public virtual async Task UpdateDataAsync<T>(
-     Dictionary<string, object> data,
-     bool skipValidation = false)
+    public virtual async Task UpdateDataAsync<T>(Dictionary<string, object> data,
+                                                 bool skipValidation = false)
     {
         if (data == null || data.Count == 0)
         {

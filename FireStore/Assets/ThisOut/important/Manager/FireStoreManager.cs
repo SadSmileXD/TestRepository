@@ -77,6 +77,27 @@ public class FireStoreManager : MonoBehaviour
     private void InitDictionary()
     {
         m_DataDictionary = new Dictionary<DataType, BaseFireStore>();
+
+        // 1. 데이터에 원본 인덱스 번호를 붙인 뒤, EnumType으로 그룹화합니다.
+        var duplicateGroups = m_Data
+            .Select((data, index) => new { data.EnumType, Index = index })
+            .GroupBy(x => x.EnumType)
+            .Where(g => g.Count() > 1); // 2개 이상 존재하는 그룹만 필터링
+
+        // 2. 중복이 존재하는지 확인
+        if (duplicateGroups.Any())
+        {  
+            foreach (var group in duplicateGroups)
+            {
+                // 해당 그룹에 속한 인덱스들을 리스트로 뽑아냅니다. (예: [2, 5])
+                var indices = group.Select(x => x.Index).ToList();
+                string indicesStr = string.Join(", ", indices);
+
+                Debug.LogError($"[중복 발견] EnumType: {group.Key} | 원본 리스트의 인덱스 위치: [{indicesStr}]");
+            }
+            return; // 중복이 있으므로 딕셔너리 생성을 중단하고 반환
+        }
+
         m_DataDictionary = m_Data.ToDictionary(x => x.EnumType, x => x);
     }
   
