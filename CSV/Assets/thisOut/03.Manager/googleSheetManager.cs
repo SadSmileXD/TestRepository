@@ -8,17 +8,41 @@ using UnityEditor;
 public class googleSheetManager : MonoBehaviour
 {
     public List<BaseDataSO> m_Listdata = new List<BaseDataSO>();
-     
 
-     
+    private void AutoSetting()
+    {
+        m_Listdata.Clear();
+        var datas = Resources.LoadAll<BaseDataSO>("99.SO");
+        m_Listdata.AddRange(datas);
+
+#if UNITY_EDITOR
+        EditorUtility.SetDirty(this);
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+#endif
+    }
+
     public async void DataLoad()
     {
+        AutoSetting();
         List<Task> tasks = new List<Task>();
         foreach (var item in m_Listdata)
         {
             tasks.Add(item.InitAsync());
         }
         await Task.WhenAll(tasks);
+#if UNITY_EDITOR
+        foreach (var item in m_Listdata)
+        {
+            if (item != null)
+            {
+                EditorUtility.SetDirty(item); // 이 SO 변경되었으니 다시 저장하라고 마킹
+            }
+        }
+        AssetDatabase.SaveAssets(); // 마킹된 에셋들 실제로 디스크에 파일로 저장
+        AssetDatabase.Refresh();    // 에디터 새로고침
+#endif
+
     }
 
     public SheetDataSO<T> GetClassData<T>() where T : class, IIdentifiable, ISheetParsable, new()
